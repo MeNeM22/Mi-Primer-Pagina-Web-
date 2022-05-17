@@ -1,0 +1,323 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background: #95919c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #95919c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #95919c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    margin: auto;
+}
+
+.color-acento {
+    color: rgb(146, 146, 146);
+}
+
+.header {
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+header .logo {
+    margin: 0;
+    padding: 23px 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    
+}
+
+header nav {
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1em;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+}
+
+header a:hover {
+    color: rgba(184, 184, 184, 0.722);
+    text-decoration: underline;
+
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(255, 255, 255);
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 26%, 0.51), hsla(0, 0%, 0%, 0.509)), url(img/Programador.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 0%, 26%, 0.51), hsla(0, 0%, 0%, 0.509)), url(img/Programador.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+#hero h1 {
+    color: white;
+    font-size: 5em;
+}
+
+
+
+#mi-exper .container {
+    text-align: center;
+    padding: 200px 15px;
+    color: white;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#mi-exper h2{
+    font-size: 3.2em;
+}
+
+
+#Prom-uti {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+}
+
+#Prom-uti .container {
+    padding: 150px 12px;
+}
+
+#Prom-uti h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Prom-uti h3{
+    font-size: 2em;
+    margin-bottom: 30px;
+    
+}
+
+#Prom-uti p {
+    display: none;
+}
+
+#Prom-uti .Card {
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.Card:first-child {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("img/vscode.jpg");
+    
+
+}
+
+.Card:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("img/youtube.jpg");
+   
+
+}
+
+.Card:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("img/html.jpg");
+    
+}
+
+#caracteristicas .container {
+    
+    text-align: center;
+    padding: 200px 15px;
+    color: white;
+    font-size: 2.5em;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.caracteristicas h2 {
+    color: rgb(255, 255, 255);
+}
+
+#carecteristicas li {
+    text-align: center;
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#aplica-ya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    height: 80vh;
+}
+
+#aplica-ya h2 {
+    font-size: 6em;
+    margin-bottom: 50px;
+}
+
+#aplica-ya button {
+    font-size: 5em;
+    
+}
+
+footer {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(108, 107, 107);
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+
+@media (min-width: 720px) {
+    
+
+
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 10px;
+}
+
+#Prom-uti .programas{
+    display: flex;
+    justify-content: center;
+}
+
+#Prom-uti p{
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+#Prom-uti .Card{
+    padding: 15px;
+}
